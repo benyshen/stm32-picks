@@ -376,6 +376,11 @@ HTML_TPL = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="STM32F1/F4/L4 开源学习项目精选：例程、中文教程、真实项目与课设改造建议">
+<meta property="og:type" content="website">
+<meta property="og:title" content="STM32 F1 / F4 / L4 学习项目清单">
+<meta property="og:description" content="70 个 GitHub 开源项目：例程、中文教程、8 类真实项目与课设改造建议">
+<meta property="og:url" content="https://benyshen.github.io/stm32-picks/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232BAE85'/%3E%3Ctext x='32' y='43' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='700' fill='%230d1117' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
 <title>STM32 F1 / F4 / L4 学习项目清单</title>
 <style>%(css)s</style>
 </head>
